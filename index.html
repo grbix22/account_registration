@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Webshop Registration</title>
+</head>
+
+<body>
+    <h1>Account registration</h1>
+    <form>
+        <label for="firstName">First name:</label>
+        <input id="firstName" type="text" name="firstName" placeholder="first name">
+        <label for="lastName">Last name:</label>
+        <input id="lastName" type="text" name="firstName" placeholder="last name">
+        <hr>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="email">
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="password">
+        <hr>
+        <label for="height">Height(cm):</label>
+        <input type="number" name="height" id="height" min="0" max="300">
+        <br>
+        <label for="color">Favourite color:</label>
+        <input type="color" name="color" id="color">
+        <hr>
+        Gender:
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="third" value="third">
+        <label for="third">Third gender</label>
+        <input type="radio" name="gender" id="no" value="no">
+        <label for="no">I don't want to say</label>
+        <hr>
+        Email preferences:
+        <br>
+        <input type="checkbox" name="preferences" id="updates" value="updates" checked>
+        <label for="updates">Send me updates.</label>
+        <br>
+        <input type="checkbox" name="preferences" id="coupons" value="coupons" checked>
+        <label for="coupons">Send me coupons</label>
+        <hr>
+        <input type="checkbox" name="gdpr" id="gdpr" value="gdpr">
+        <label for="gdpr">I confirm that I have read,consent and agree to User Agreement and Privacy policy.</label>
+        <br>
+        <button>Register</button>
+    </form>
+
+</body>
+
+</html>
