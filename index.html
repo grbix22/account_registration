@@ -10,17 +10,17 @@
     <h1>Account registration</h1>
     <form>
         <label for="firstName">First name:</label>
-        <input id="firstName" type="text" name="firstName" placeholder="first name">
+        <input id="firstName" type="text" name="firstName" placeholder="first name" required>
         <label for="lastName">Last name:</label>
-        <input id="lastName" type="text" name="firstName" placeholder="last name">
+        <input id="lastName" type="text" name="firstName" placeholder="last name" required>
         <hr>
         <label for="email">Email:</label>
-        <input type="email" name="email" id="email" placeholder="email">
+        <input type="email" name="email" id="email" placeholder="email" required>
         <label for="password">Password:</label>
-        <input type="password" name="password" id="password" placeholder="password">
+        <input type="password" name="password" id="password" placeholder="password" required>
         <hr>
         <label for="height">Height(cm):</label>
-        <input type="number" name="height" id="height" min="0" max="300">
+        <input type="number" name="height" id="height" min="0" max="300" required>
         <br>
         <label for="color">Favourite color:</label>
         <input type="color" name="color" id="color">
@@ -43,7 +43,7 @@
         <input type="checkbox" name="preferences" id="coupons" value="coupons" checked>
         <label for="coupons">Send me coupons</label>
         <hr>
-        <input type="checkbox" name="gdpr" id="gdpr" value="gdpr">
+        <input type="checkbox" name="gdpr" id="gdpr" value="gdpr" required>
         <label for="gdpr">I confirm that I have read,consent and agree to User Agreement and Privacy policy.</label>
         <br>
         <button>Register</button>
